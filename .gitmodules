@@ -1,0 +1,3 @@
+[submodule "libmetal"]
+	path = libmetal
+	url = https://github.com/OpenAMP/libmetal
