@@ -23,6 +23,8 @@
 extern "C" {
 #endif
 
+#define metal_yield() k_yield()
+
 #define METAL_INIT_DEFAULTS				\
 {							\
 	.log_handler	= metal_zephyr_log_handler,	\
